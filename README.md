@@ -2,7 +2,7 @@
 
 Date utility. Creates formatted date string.
 
-# Methods:
+# Methods
 
 date_formatted([format String], [date Date], [language String]);
 
