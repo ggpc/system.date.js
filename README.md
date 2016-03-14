@@ -55,17 +55,18 @@ set_date_format(format String)
   __%s__  - Seconds, with leading zeros     00 through 59
 
 # Languages
-  __en__  
   >  English
-
+  __en__  
+  
+> Russian
   __ru__ 
-  > Russian
 
-  __ua__ 
   > Ukrainian
+  __ua__ 
   
 # Examples
-```
+
+```javascript
 date_format(); // 14:42:55 14.03.2016
 
 date_format('%H:%i:%s'); // 14:42:55
