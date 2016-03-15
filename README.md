@@ -67,11 +67,11 @@ set_date_format(format String)
 # Examples
 
 ```javascript
-date_format(); // 14:42:55 14.03.2016
+date_formatted(); // 14:42:55 14.03.2016
 
-date_format('%H:%i:%s'); // 14:42:55
+date_formatted('%H:%i:%s'); // 14:42:55
 
-date_format('%H:%i:%s', new Date()); // 14:42:55
+date_formatted('%H:%i:%s', new Date()); // 14:42:55
 
-date_format('%H:%i:%s %F', new Date(), 'en'); // 14:42:55 March
+date_formatted('%H:%i:%s %F', new Date(), 'en'); // 14:42:55 March
 ```
